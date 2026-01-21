@@ -5,7 +5,7 @@ biblioteca de comandos do Cypress para facilitar a automação de testes E2E.
 ## Instalação
 
 ```bash
-npm install --save-dev my-cypress-commands
+npm install --save-dev cypress-custom-commands-lib
 ```
 
 ## Uso
