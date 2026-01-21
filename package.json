@@ -1,5 +1,5 @@
 {
-  "name": "@wenderson-me/cypress-commands",
+  "name": "wenderson-cypress-commands",
   "version": "1.0.0",
   "description": "Biblioteca de comandos customizados do Cypress para facilitar testes E2E",
   "main": "src/index.js",
