@@ -1,23 +1,41 @@
 {
-  "name": "my-cypress-commands",
+  "name": "cypress-custom-commands-lib",
   "version": "1.0.0",
-  "description": "Comandos customizados do Cypress",
+  "description": "Biblioteca de comandos customizados do Cypress para facilitar testes E2E",
   "main": "src/index.js",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "cypress run",
     "test:open": "cypress open",
     "lint": "eslint src/**/*.js cypress/**/*.js",
     "lint:fix": "eslint src/**/*.js cypress/**/*.js --fix",
-    "format": "prettier --write 'src/**/*.js' 'cypress/**/*.js'"
+    "format": "prettier --write 'src/**/*.js' 'cypress/**/*.js'",
+    "prepublishOnly": "npm run lint"
   },
   "keywords": [
     "cypress",
     "testing",
     "commands",
-    "e2e"
+    "e2e",
+    "automation",
+    "qa",
+    "test-automation",
+    "custom-commands"
   ],
-  "author": "Wenderson Monteiro Da Silva",
+  "author": "Development Team",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenderson-me/my-cypress-commands.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wenderson-me/my-cypress-commands/issues"
+  },
+  "homepage": "https://github.com/wenderson-me/my-cypress-commands#readme",
   "type": "commonjs",
   "peerDependencies": {
     "cypress": "^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0"
